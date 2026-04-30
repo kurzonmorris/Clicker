@@ -1,7 +1,7 @@
 # Project Arasmas — Development Schedule
 
 > **Status:** DRAFT — Open questions remain in plans.md
-> **Last Updated:** 2026-04-03
+> **Last Updated:** 2026-04-30
 > **Guide Purpose:** This file is the single source of truth for what to work on next. Any AI model (Claude Code or otherwise) should read this file FIRST to determine the current task.
 
 ---
@@ -71,10 +71,67 @@ Open questions in plans.md must be answered before development begins. Civilizat
 | 13 | Confirm offline earnings (25%, 3hr) | [x] | §1.20 |
 | 14 | Confirm mod system + GitHub pipeline | [x] | §2.10 |
 | 15 | Confirm ad system (contextual, per-building cooldown) | [x] | §2.11 |
-| 16 | Finalise art style (Low-Poly 3D vs Cel-Shaded — pending) | [ ] | §1.14 |
-| 17 | Answer remaining open questions (10 items in plans.md) | [ ] | §Open Questions |
-| 18 | Finalise plans.md with all decisions | [ ] | All |
-| 19 | Create detailed Phase 1 sprint breakdown | [ ] | §2.2 |
+| 16 | Confirm worker naming + generational lineage system | [x] | §1.5 |
+| 17 | Confirm worker community pool + auto-assignment | [x] | §1.5 |
+| 18 | Confirm unrestricted worker role assignment | [x] | §1.5 |
+| 19 | Confirm difficulty settings (delegation markup, competitor count, crisis freq) | [x] | §1.11 |
+| 20 | Confirm resource delegation system | [x] | §1.4 |
+| 21 | Confirm critical success mechanic | [x] | §1.4 |
+| 22 | Confirm attack boosts (research-gated) | [x] | §1.10 |
+| 23 | Confirm Crisis Monitor unlocked in Iron Age | [x] | §1.9 |
+| 24 | Confirm disrepair mechanic (2 ages behind = rebuild) | [x] | §1.2 |
+| 25 | Confirm map free-form placement + road drawing | [x] | §1.15 |
+| 26 | Confirm decorative buildings fixed list per era + research | [x] | buildingsGB.md |
+| 27 | Confirm town hall = visual centre + community stats display | [x] | buildingsGB.md |
+| 28 | Confirm all-numbers-editable principle | [x] | §2.3 |
+| 29 | Finalise art style (Low-Poly 3D vs Cel-Shaded — DEFERRED until artist cost known) | [ ] | §1.14 |
+| 30 | Confirm poor worker ratios cause inefficiency (backlog/waste mechanic) | [x] | §1.5 |
+| 31 | Confirm no generational stat variance (permanent) | [x] | §1.5 |
+| 32 | Confirm difficulty locked for playthrough | [x] | §1.11 |
+| 33 | Confirm Crisis Monitor upgradeable through later research | [x] | §1.9 |
+| 34 | Confirm competitor adaptive difficulty (dev benchmarks + multipliers) | [x] | §1.12 |
+| 35 | Confirm attack boost results visible to player | [x] | §1.12 |
+| 36 | Confirm production buildings must be placed on map before use | [x] | §1.15 |
+| 37 | Confirm disrepair: same rebuild cost, can relocate | [x] | §1.15 |
+| 38 | Confirm Town Hall = stats dashboard for all buildings (upgrades per era) | [x] | §1.15, buildingsGB.md |
+| 39 | Confirm buildings movable for era-appropriate fee | [x] | §1.15 |
+| 40 | Confirm competitors are named regional rivals (reveal progressively through eras) | [x] | §1.12 |
+| 41 | Confirm built-in benchmark recording mode for dev playtesting | [x] | §1.12 |
+| 42 | Confirm crisis effects on competitors visible (both summary + detail) | [x] | §1.12 |
+| 43 | Confirm worker specialist bonus (stays in same building = bonus tag) | [x] | §1.5 |
+| 44 | Confirm worker family tree viewer | [x] | §1.5 |
+| 45 | Confirm marriage & family mini-game (marry, divorce, 8 children max per couple) | [x] | minigame_family.md |
+| 46 | Confirm worker recruitment: immigrant OR child from children pool | [x] | §1.5 |
+| 47 | Confirm crisis chain reactions → Dark Age events | [x] | §1.9 |
+| 48 | Confirm Golden Ages (post-crisis or sustained prosperity) | [x] | §1.9 |
+| 49 | Confirm building adjacency zones (bonuses + negatives) | [x] | §1.15 |
+| 50 | Confirm "Did You Know?" historical pop-ups | [x] | §1.17 |
+| 51 | Confirm seasonal cycles following real-world calendar | [x] | §1.2 |
+| 52 | Confirm boost installation into buildings (1 per building, permanent at reduced effect) | [x] | §1.10 |
+| 53 | Confirm era transition cinematics (end of development feature) | [x] | §1.2 |
+| 54 | Confirm worker happiness system (50% baseline, ±2% speed per 1%) | [x] | §1.5 |
+| 55 | Confirm Laws system (global modifiers, enact/retract at will, era-appropriate) | [x] | §1.21 |
+| 56 | Confirm happiness buildings category | [x] | §1.22 |
+| 57 | Confirm specialist system rework (95% threshold, progress/decay tracking) | [x] | §1.5 |
+| 58 | Confirm child stat inheritance (top stat per parent at 12, base range 8–12) | [x] | minigame_family.md |
+| 59 | Confirm adjacency zones REMOVED | [x] | §1.15 |
+| 60 | Confirm seasonal default ±10% | [x] | §1.2 |
+| 61 | Confirm Golden Age trigger (85% efficiency sustained 1hr default) | [x] | §1.9 |
+| 62 | Confirm competitor reveal schedule per civilization settings | [x] | §1.12 |
+| 63 | Confirm map starting size 10×10 grid | [x] | §1.15, buildingsGB.md |
+| 64 | Confirm boost installation: 1 per category per building, replacement loses old boost only | [x] | §1.10 |
+| 65 | Confirm happiness buildings global effect + class-based targeting | [x] | §1.22 |
+| 66 | Confirm happiness factors (golden age, crisis, overcharge, enemy boosts) | [x] | §1.5 |
+| 67 | Confirm laws unlimited + mutual exclusivity + cooldowns (15min enact, 1hr minimum active) | [x] | §1.21 |
+| 68 | Confirm specialist progress rate (1%/min, 95 min to specialist) | [x] | §1.5 |
+| 69 | Confirm specialist inverse decay (1:1 ratio new vs old) | [x] | §1.5 |
+| 70 | Confirm map grows by +10 per era (10×10 to 120×120) | [x] | §1.15, buildingsGB.md |
+| 71 | Confirm Era 1 has no happiness buildings | [x] | §1.22 |
+| 72 | Confirm individual + per-building average happiness visible | [x] | §1.5 |
+| 73 | Confirm building overcharge mode (increased production, reduced happiness) | [x] | §1.4 |
+| 74 | Answer remaining open questions (fine-tuning items in plans.md) | [~] | §Open Questions |
+| 75 | Finalise plans.md with all decisions | [ ] | All |
+| 76 | Create detailed Phase 1 sprint breakdown | [ ] | §2.2 |
 
 ### Sprint 0.2 — Populate Companion Documents (parallel, separate chats)
 
@@ -84,11 +141,18 @@ Open questions in plans.md must be answered before development begins. Civilizat
 |---|------|--------|------|
 | 1 | Populate Great Britain research tree | [ ] | researchGB.md |
 | 2 | Populate Great Britain tools & equipment | [ ] | toolsandequipmentGB.md |
-| 3 | Create + populate China research tree | [ ] | researchChina.md |
-| 4 | Create + populate China tools & equipment | [ ] | toolsandequipmentChina.md |
-| 5 | Create + populate Mediterranean research tree | [ ] | researchMediterranean.md |
-| 6 | Create + populate Mediterranean tools & equipment | [ ] | toolsandequipmentMediterranean.md |
-| 7 | Define production tier structure (buildings, chains) | [ ] | Separate dedicated chat |
+| 3 | Populate Great Britain buildings | [ ] | buildingsGB.md |
+| 4 | Populate Great Britain laws | [ ] | lawsGB.md |
+| 5 | Populate achievements list | [ ] | achievements.md |
+| 6 | Create + populate China research tree | [ ] | researchChina.md |
+| 7 | Create + populate China tools & equipment | [ ] | toolsandequipmentChina.md |
+| 8 | Create + populate China buildings | [ ] | buildingsChina.md |
+| 9 | Create + populate China laws | [ ] | lawsChina.md |
+| 10 | Create + populate Mediterranean research tree | [ ] | researchMediterranean.md |
+| 11 | Create + populate Mediterranean tools & equipment | [ ] | toolsandequipmentMediterranean.md |
+| 12 | Create + populate Mediterranean buildings | [ ] | buildingsMediterranean.md |
+| 13 | Create + populate Mediterranean laws | [ ] | lawsMediterranean.md |
+| 14 | Define production tier structure (chains, resources) | [ ] | Separate dedicated chat |
 
 ---
 
